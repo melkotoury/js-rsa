@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+
+<script type="text/javascript" src="jsbn.js"></script>
+<script type="text/javascript" src="rng.js"></script>
+<script type="text/javascript" src="rsa.js"></script>
+<script type="text/javascript" src="rsa2.js"></script>
+<script type="text/javascript">
+  x = new BigInteger("abcd1234", 16);
+  y = new BigInteger("beef", 16);
+  z = x.mod(y);
+  alert(z.toString(16));
+</script>
+</body>
+</html>
